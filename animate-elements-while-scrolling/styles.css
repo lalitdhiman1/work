@@ -1,0 +1,97 @@
+body{
+  overflow-x: hidden;
+}
+#wrapper {
+  display: block;
+  width: 860px;
+  margin: 0 auto;
+  padding: 35px 0;
+}
+
+.block {
+  padding: 8px 0;
+  opacity: 0;
+  -webkit-transition: all 0.55s linear;
+  -moz-transition: all 0.55s linear;
+  transition: all 0.55s linear;
+}
+
+.block.animated {
+  opacity: 1;
+}
+
+.block.left {
+  margin-left: -2%;
+}
+.block.left.animated {
+  margin-left: 15%;
+}
+
+.block.right {
+  display: block;
+  margin-left: 100%;
+}
+.block.right.animated {
+  margin-left: 50%;
+}
+
+.block.top {
+  display: block;
+  width: auto;
+  text-align: center;
+  margin-top: -45px;
+}
+.block.top.animated {
+  margin-top: 0px;
+}
+
+.block.btm {
+  display: block;
+  width: auto;
+  text-align: center;
+  margin-top: 45px;
+}
+.block.btm.animated {
+  margin-top: 0;
+}
+
+.block.centerleft {
+  display: block;
+  width: auto;
+  text-align: center;
+  margin-right: -10%;
+}
+.block.centerleft.animated {
+  margin-right: 0;
+}
+
+.block.centerright {
+  display: block;
+  width: auto;
+  text-align: center;
+  margin-left: -10%;
+}
+.block.centerright.animated {
+  margin-left: 0;
+}
+
+.block.center {
+  margin-left: 2%;
+}
+.block.center.animated {
+  margin-left: 42%;
+}
+
+.block.size {
+  display: block;
+  width: 10%;
+  text-align: center;
+}
+.block.size.animated {
+  width: 100%;
+  height: 100%;
+}
+.block.size img {
+  max-width: 100%;
+  height: auto;
+}
