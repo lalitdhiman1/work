@@ -1,0 +1,11 @@
+{
+  "name": "post-oye",
+  "version": "0.1.0",
+  "author": {
+    "name": "harry",
+    "url": "http://www.oyeharry.com"
+  },
+  "dependencies": {
+    "jquery": "~2.0.1"
+  }
+}
