@@ -1,0 +1,24 @@
+.container-homepage{
+	width:percentage(6/7);
+	margin:0 auto;
+	background:#fff;
+	display:table;
+}
+ul.page{
+	width:100%;
+	font-size:55px;
+
+	li{
+	list-style:none;
+	width:50%;
+	float:left;
+	height:60px;
+	line-height:60px;
+		span{
+		color:red;
+		}
+		a{
+		text-decoration:none;
+		}
+	}
+}

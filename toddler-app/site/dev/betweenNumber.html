@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>First Game</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ 	
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head> 
+<body>
+<div class="container">
+<div class="star left glyphicon glyphicon-ok" id="tick-ok"></div>
+<div class="star left glyphicon glyphicon-remove" id="tick-cross"></div>
+<div class="star right glyphicon glyphicon-star" id="star-glowing"></div>
+<div class="number numberFirst" id="firstDivBet"></div>
+<div class="number numberSecond" id="secondDivBet"><input maxlength="2" type="text" id="enterNumberBet" name="enterNumberBet"></div>
+<div class="number numberThird" id="thirdDivBet"></div> 
+<button type="button" onclick="$checkNumber()" id="submit" class="btn btn-primary">SUBMIT</button>
+<button type="button" onclick="$tryAgain()" id="try-again" class="btn btn-primary">TRY AGAIN</button>
+  </div>
+	
+	<script type="text/javascript" type="text/javascript" src="js/betweenNumber.js"></script>
+</body>
+</html>

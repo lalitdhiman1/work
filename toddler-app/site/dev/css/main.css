@@ -1,0 +1,120 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+  background: #eee;
+}
+.container {
+  width: 57.14286%;
+  margin: 150px auto 0;
+  background: #fff;
+  padding: 0;
+  border: 1px solid #dedede;
+  position: relative;
+}
+
+.container > div.number {
+  width: 33.33333%;
+  float: left;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 80px;
+  background: gray;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  margin: 0px auto 20px;
+  outline: none;
+}
+
+.container > div.number input {
+  width: 100%;
+  background: gray;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #000;
+  outline: none;
+  text-align: center;
+  border: none;
+  height: 80px;
+}
+
+.container > div.number input.errorTxt {
+  color: #cc0000;
+}
+
+.container > .star {
+  font-size: 150px;
+  position: absolute;
+  top: 15%;
+  display: none;
+}
+
+.container > .star.left {
+  left: -170px;
+}
+
+.container > .star.left#tick-cross {
+  color: #cc0000;
+}
+
+.container > .star.left#tick-ok {
+  color: #00B200;
+}
+
+.container > .star.right {
+  right: -160px;
+  color: #ffd700;
+}
+
+.container button {
+  width: 50%;
+  margin: 0 auto 20px;
+  float: none;
+  display: block;
+  font-size: 40px;
+}
+
+.container button#try-again {
+  display: none;
+}
+.container-homepage {
+  width: 85.71429%;
+  margin: 0 auto;
+  background: #fff;
+  display: table;
+}
+
+ul.page {
+  width: 100%;
+  font-size: 55px;
+}
+
+ul.page li {
+  list-style: none;
+  width: 50%;
+  float: left;
+  height: 60px;
+  line-height: 60px;
+}
+
+ul.page li span {
+  color: red;
+}
+
+ul.page li a {
+  text-decoration: none;
+}
+.lalit {
+  width: 85.71429%;
+}
+
+.dhiman {
+  width: 94.44444%;
+}
