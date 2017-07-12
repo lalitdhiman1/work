@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<entry>    
+      <address>17 Sector Chandigarh</address>
+      <lat>30.739834</lat>
+      <lng>76.782702</lng>
+</entry>
+<entry>    
+      <address>IT Park Chandigarh</address>
+      <lat>30.734459</lat>
+      <lng>76.829537</lng>
+</entry>
+<entry>    
+      <address>Derabassi Mohali</address>
+      <lat>30.5872</lat>
+      <lng>76.8428</lng>
+</entry>
+<entry>    
+      <address>17 Bus Stand Chandigarh</address>
+      <lat>30.736612</lat>
+      <lng>76.777197</lng>
+</entry>
+<entry>    
+      <address>43 Bus Stand Chandigarh</address>
+      <lat>30.718435</lat>
+      <lng>76.744212</lng>
+</entry>
+<entry>    
+      <address>Zirakpur Mohali</address>
+      <lat>30.64255</lat>
+      <lng>76.817336</lng>
+</entry>
+<entry>    
+      <address>PCA Stadium Mohali</address>
+      <lat>30.690889</lat>
+      <lng>76.737531</lng>
+</entry>
+<entry>    
+      <address>Sukhna Lake Chandigarh</address>
+      <lat>30.742138</lat>
+      <lng>76.818756</lng>
+</entry>
+<entry>    
+      <address>Paras Downtown Mohali</address>
+      <lat>30.660224</lat>
+      <lng>76.822114</lng>
+</entry>
+<entry>    
+      <address>Hops n Grains Panchkula</address>
+      <lat>30.694209</lat>
+      <lng>76.860565</lng>
+</entry>
+<entry>    
+      <address>Funcity Panchkula</address>
+      <lat>30.694209</lat>
+      <lng>76.860565</lng>
+</entry>
+<entry>    
+      <address>Amaravati Panchkula</address>
+      <lat>30.752786</lat>
+      <lng>76.908959</lng>
+</entry>
+<entry>    
+      <address>Pinjore Garden Panchkula</address>
+      <lat>30.793297</lat>
+      <lng>76.911726</lng>
+</entry>
+<entry>    
+      <address>PGI Chandigarh</address>
+      <lat>30.765894</lat>
+      <lng>76.77549</lng>
+</entry>
+<entry>    
+      <address>Airport Chandigarh</address>
+      <lat>30.673696</lat>
+      <lng>76.789974</lng>
+</entry>
+
+</data>

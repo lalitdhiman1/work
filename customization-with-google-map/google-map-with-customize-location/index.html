@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Google Map with in the regions. </title>
+</head>
+
+<body>
+            <div class="wrapper">
+                <div class="form-div" style="display:none;">
+                    <h2>Find a place</h2>
+                        <input type="text" id="query-zip" onFocus="clearText(this)" onkeydown="javascript:return checkKeycode(event)" onBlur="clearText(this)" value="160101" />
+                    
+                        <select name="Miles" id="query-distance" onkeydown="javascript:return checkKeycode(event)">
+                            <option value="1609.344">Up to 1 Miles</option>
+                            <option value="3218.688">Up to 2 Miles</option>
+                            <option value="4828.032" selected="true">Up to 3 Miles</option>
+                            <option value="6437.376">Up to 4 Miles</option>
+                            <option value="8046.72">Up to 5 Miles</option>
+                            
+                        </select>
+                        <input id="map-submit" type="button" value="Search" onclick="mapSearch()" />
+
+                </div>
+                
+                
+                    <div id="map-canvas"> </div>
+                    <div id="direction-container"> </div>
+                
+            
+            <div class="closest_location">
+                <h2 class="headingh2"></h2>
+                <ol class="result-container"></ol>
+            </div>
+            </div>
+         
+    </section>
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&libraries=geometry"></script>
+    <script type="text/javascript" src="js/styledmarker.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+</body>
+
+</html>
