@@ -9,6 +9,7 @@
   "author": "lalit dhiman",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.18.12",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.5.0",
     "gulp-concat": "^2.6.1",

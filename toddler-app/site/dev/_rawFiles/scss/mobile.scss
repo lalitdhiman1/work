@@ -1,0 +1,25 @@
+@media only screen and (max-width: 800px) {
+.container{
+	width:90%
+}
+
+
+ul.page > li {
+	width:100%;
+	padding:0 3%;
+}
+.container>.star.left {
+    left: 41%;
+    top: -100px;
+    font-size: 900%;
+}
+.container>.star.right {
+    right: 41%;
+    top: 110%;
+    font-size: 900%;
+}
+
+
+
+
+}

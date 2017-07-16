@@ -2,10 +2,8 @@ $bodyWidth: percentage(4/7);
 $containerDivHeight : 100px;
 .container{
 	width:$bodyWidth;
-	margin: 150px auto 0;
-	background:#fff;
+	margin: 30% auto;
 	padding:0;
-	border:1px solid #dedede;
 	position:relative;
 
 	> div.number{
@@ -14,22 +12,22 @@ $containerDivHeight : 100px;
 	height:$containerDivHeight;
 	line-height:$containerDivHeight;
 	text-align:center;
-	font-size:80px;
-	background:gray;
-	color:#fff;
+	font-size:400%;
+	background:#E5B7AD;
 	text-shadow: 2px 2px #000;
 	margin: 0px auto 20px;
 	outline: none;
 	
 	input{
 		width:100%;
-		background:gray;
+		background:#E5B7AD;
 		text-transform: uppercase;
 		text-shadow: 2px 2px #000;
 		outline:none;
 		text-align:center;
 		border:none;
 		height:80px;
+		line-height:80px;
 	&.errorTxt{
 		color:#cc0000;
 	}
@@ -37,13 +35,15 @@ $containerDivHeight : 100px;
 
 	}
 	> .star{
-	font-size:150px;
+	font-size:750%;
 	position:absolute;
-	top:15%;
+	top:5%;
+		text-shadow: 2px 2px #000;
+
 	display:none;
 
 	&.left{
-	left:-170px;
+	left:-90px;
  
 	&#tick-cross{
 	color:#cc0000;
@@ -53,7 +53,7 @@ $containerDivHeight : 100px;
 	} 
 	}
 	&.right{
-	right:-160px;
+	right:-90px;
 	color:#ffd700;
 	}
 	}
@@ -63,11 +63,42 @@ $containerDivHeight : 100px;
 	margin:0 auto 20px;
 	float:none;
 	display:block;
-	font-size:40px;
+	background:#8C534D;
+	border:1px solid #8C534D;
+	font-size:210%;
+
+	&:focus, &:active{
+	background:#D6A096;
+		color:#fff;
+
+	border:1px solid #D6A096;
+	}
 	
 	&#try-again{
 		display:none;
 	}
 	}
 
+}
+.backButton{
+
+text-align:right;
+height:50px;
+line-height:50px;
+font-size:180%;
+ top:0;
+ font-weight:bold;
+ padding-right:5%;
+position:relative;
+background:#8C534D;
+display:block;
+
+&  > a{
+	color:#fff;
+}
+
+}
+
+button.btn{
+	color:#fff;
 }

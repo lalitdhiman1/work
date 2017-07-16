@@ -6,19 +6,31 @@
 }
 ul.page{
 	width:100%;
-	font-size:55px;
+	font-size:250%;
 
 	li{
 	list-style:none;
 	width:50%;
+	padding-left:2%;
 	float:left;
 	height:60px;
 	line-height:60px;
 		span{
-		color:red;
+		color:#D6A096;
 		}
 		a{
 		text-decoration:none;
 		}
+	
+	&:hover{
+	cursor:pointer;
+	background:#8C534D;
+	 a{
+color:#fff
+
 	}
+	}
+
+	}
+
 }

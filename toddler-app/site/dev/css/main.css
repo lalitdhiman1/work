@@ -9,14 +9,16 @@ ol {
 body {
   font: 100% Helvetica, sans-serif;
   color: #333;
-  background: #eee;
+  background: #ECE2D8;
+}
+
+a {
+  color: #8C534D;
 }
 .container {
   width: 57.14286%;
-  margin: 150px auto 0;
-  background: #fff;
+  margin: 30% auto;
   padding: 0;
-  border: 1px solid #dedede;
   position: relative;
 }
 
@@ -26,9 +28,8 @@ body {
   height: 100px;
   line-height: 100px;
   text-align: center;
-  font-size: 80px;
-  background: gray;
-  color: #fff;
+  font-size: 400%;
+  background: #E5B7AD;
   text-shadow: 2px 2px #000;
   margin: 0px auto 20px;
   outline: none;
@@ -36,13 +37,14 @@ body {
 
 .container > div.number input {
   width: 100%;
-  background: gray;
+  background: #E5B7AD;
   text-transform: uppercase;
   text-shadow: 2px 2px #000;
   outline: none;
   text-align: center;
   border: none;
   height: 80px;
+  line-height: 80px;
 }
 
 .container > div.number input.errorTxt {
@@ -50,14 +52,15 @@ body {
 }
 
 .container > .star {
-  font-size: 150px;
+  font-size: 750%;
   position: absolute;
-  top: 15%;
+  top: 5%;
+  text-shadow: 2px 2px #000;
   display: none;
 }
 
 .container > .star.left {
-  left: -170px;
+  left: -90px;
 }
 
 .container > .star.left#tick-cross {
@@ -69,7 +72,7 @@ body {
 }
 
 .container > .star.right {
-  right: -160px;
+  right: -90px;
   color: #ffd700;
 }
 
@@ -78,11 +81,41 @@ body {
   margin: 0 auto 20px;
   float: none;
   display: block;
-  font-size: 40px;
+  background: #8C534D;
+  border: 1px solid #8C534D;
+  font-size: 210%;
+}
+
+.container button:focus,
+.container button:active {
+  background: #D6A096;
+  color: #fff;
+  border: 1px solid #D6A096;
 }
 
 .container button#try-again {
   display: none;
+}
+
+.backButton {
+  text-align: right;
+  height: 50px;
+  line-height: 50px;
+  font-size: 180%;
+  top: 0;
+  font-weight: bold;
+  padding-right: 5%;
+  position: relative;
+  background: #8C534D;
+  display: block;
+}
+
+.backButton > a {
+  color: #fff;
+}
+
+button.btn {
+  color: #fff;
 }
 .container-homepage {
   width: 85.71429%;
@@ -93,23 +126,84 @@ body {
 
 ul.page {
   width: 100%;
-  font-size: 55px;
+  font-size: 250%;
 }
 
 ul.page li {
   list-style: none;
   width: 50%;
+  padding-left: 2%;
   float: left;
   height: 60px;
   line-height: 60px;
 }
 
 ul.page li span {
-  color: red;
+  color: #D6A096;
 }
 
 ul.page li a {
   text-decoration: none;
+}
+
+ul.page li:hover {
+  cursor: pointer;
+  background: #8C534D;
+}
+
+ul.page li:hover a {
+  color: #fff;
+}
+@media only screen and (max-width: 800px) {
+  .container {
+    width: 90%;
+  }
+
+  ul.page > li {
+    width: 100%;
+    padding: 0 3%;
+  }
+
+  .container > .star.left {
+    left: 41%;
+    top: -100px;
+    font-size: 900%;
+  }
+
+  .container > .star.right {
+    right: 41%;
+    top: 110%;
+    font-size: 900%;
+  }
+}
+#box {
+  width: 100px;
+  height: 100px;
+  background: #D6A096;
+  border-radius: 100%;
+  animation: playPause 2s ease 1 normal running;
+}
+
+@keyframes playPause {
+  0% {
+    transform: translateX(0px);
+  }
+
+  25% {
+    transform: translateX(200px);
+  }
+
+  50% {
+    transform: translateX(200px) translateY(200px);
+  }
+
+  75% {
+    transform: translateX(0px) translateY(200px);
+  }
+
+  100% {
+    transform: translateY(0px) translateY(0px);
+  }
 }
 .lalit {
   width: 85.71429%;
