@@ -1,0 +1,64 @@
+#latestNews .card {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#latestNews .card {
+    width: 100%;
+    min-height: 400px;
+    box-shadow: 5px 0 7px #ccc;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#latestNews .card--width2 {
+    width: 60%;
+}
+
+#latestNews .card .card-action {
+    background-color: inherit;
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+    position: absolute;
+    padding: 16px 24px;
+    bottom: 0;
+    width: 100%;
+}
+
+#latestNews .card .card-content {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    min-height: 340px;
+    overflow: hidden;
+    padding: 0
+}
+
+#latestNews .card .card-content p,
+#latestNews .card .card-content .card-title {
+    padding: 0 20px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+#latestNews .card .card-content p {
+    height: 0;
+    -webkit-transition: height 0.2s linear;
+    -moz-transition: height 0.2s linear;
+    -ms-transition: height 0.2s linear;
+    -o-transition: height 0.2s linear;
+    transition: height 0.2s linear;
+}
+
+#latestNews .card:hover .card-content p {
+    height: 200px;
+}
+
+.carousel {
+    height: 400px !important;
+}
+
+.carousel .carousel-item {
+    height: 415px !important;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>News Api</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen"
+        href="../bower_components/materialize/dist/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <nav class="red">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">News API</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="javascript:void(0)" class="masonary">Masonary</a></li>
+                    <li><a href="javascript:void(0)" class="masonary-carousel">Material Carousel</a></li>
+                    <li><a href="javascript:void(0)" class="owl-carousel">Owl Carousel</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row"></div>
+
+        <div class="row">
+            <div class="col s4 input-field">
+                <select class="endpoints">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">Top Headlines</option>
+                    <option value="2">Everything</option>
+                </select>
+                <label>Endpoints</label>
+            </div>
+            <div class="col s8  chooseNews"></div>
+
+        </div>
+        <div class="row " id="latestNews"></div>
+    </div>
+
+
+
+    <div class="blackOverlay"></div>
+    <div class="spinnerLoader">
+
+        <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+
+            <div class="spinner-layer spinner-red">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+
+            <div class="spinner-layer spinner-yellow">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+
+            <div class="spinner-layer spinner-green">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/materialize/dist/js/materialize.min.js"></script>
+    <script src="../bower_components/masonry-layout/dist/masonry.pkgd.min.js"></script>
+    <script src="./js/speech-recogition.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

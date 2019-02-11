@@ -1,0 +1,22 @@
+.chooseNews .inputSearch{
+    width: 70%;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+.chooseNews a.btn-floating{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+#toast-container {
+    top: auto !important;
+    
+    bottom: 10%;
+    left:0;
+    right: 0;
+    margin:  0 auto;
+    max-width: 500px;
+   
+  }
